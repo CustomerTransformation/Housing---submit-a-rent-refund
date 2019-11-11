@@ -1,0 +1,16 @@
+[
+    {
+        "ID": "5a310dae24700",
+        "Name": "HO011 - Housing submit a rent refund email",
+        "Type": "EMAIL",
+        "LIM_id": "83ef69d1-2c5e-11e5-ad20-22000a7a05f5",
+        "Editable": true,
+        "LIM_name": "Portsmouth",
+        "Category": "Contensus",
+        "data_type": "integration-lookup",
+        "allow_offline": 0,
+        "Output_template": "{\"lookup_validation\":\"0\",\"subject\":\"Housing - submit a rent refund form received\",\"fromName\":\"{NoReplyEmail_N}\",\"from\":\"{NoReplyEmail}\",\"recipients_to\":\"{emailAddress}\",\"recipients_cc\":\"\",\"recipients_bcc\":\"\",\"pdf_attachments\":\"5a311314f3c32\",\"body\":\"<div style=\\\"font-family: arial, helvetica, sans-serif; font-size: 12pt; white-space: pre-wrap;\\\">\\n<p>Please see attached Housing - submit a rent refund form.</p>\\n<div></div>\\n<p>You now need to forward this to</p>\\n<ul>\\n<li>OFFICE MANAGER for approval</li>\\n<li>HOUSING DEBIT CONTROL for posting authorisation</li>\\n<li>PAYMENTS GROUP (copy to HOUSING ACCOUNTANCY) for payment.</li>\\n</ul>\\n<p><strong>Housing staff only:</strong></p>\\n<p>Once you have forwarded the email to the appropriate person, please delete from your 'sent' box and your 'inbox'</p>\\n<div></div>\\n<p>Yours sincerely,</p>\\n<p>Portsmouth City Council</p>\\n</div>\",\"attachments\":\"\"}",
+        "log_only_on_error": 0,
+        "error_notification": "{\"LIM_id\":\"3f07ecf4-0dfa-11e2-b0b9-12313b03ed59\",\"LIM_name\":\"LIM14\",\"recipients_to\":\"Daniela.Dutu@portsmouthcc.gov.uk\"}"
+    }
+]
